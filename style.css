@@ -43,5 +43,9 @@ h1 {
 @media (max-width: 768px) {
     .contianar{
         display: flex;
+        flex-direction:column;
+    }
+    .contianar p {
+        padding:10px;
     }
 }
